@@ -8,11 +8,11 @@ userinput = input(Fore.GREEN + "select language to continue(tr/en): ").lower()
 try:
     while True:
         if userinput=="en":
-            from assets import eninterface as ui
+            from eninterface import eninterface as ui
             ui.baslat()
             break
         elif userinput=="tr":
-            from assets import trinterface as ui
+            from trinterface import trinterface as ui
             ui.baslat()
             break
         else:
